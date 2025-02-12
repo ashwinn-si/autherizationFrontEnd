@@ -116,7 +116,7 @@ function DocumentationPage(){
                                 </thead>
                                 <tbody>
                                 <tr>
-                                    <td className="text-center text-sm lg:text-base">admin@gmail.com</td>
+                                    <td className="text-center text-sm lg:text-base">admin</td>
                                     <td className="text-center text-sm lg:text-base">root</td>
                                     <td className="text-center text-sm lg:text-base">admin</td>
                                 </tr>
