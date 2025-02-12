@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 function LogOutButton(){
     const navigator = useNavigate();
     function handleLogOut(){
-        api.post("/api/auth/signup").then((response) => {
+        api.post("/api/auth/logout").then((response) => {
             if(response.status === 200){
                 navigator("/")
             }
