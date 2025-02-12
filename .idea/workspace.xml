@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="e1126991-672d-4721-a957-dc98e67d7dd5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/LandingPage/NavItems.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LandingPage/ScrollIndicator.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/LandingPage/Tooltip.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/LandingPage/DocumentationPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/InfoMessages/ErrorMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InfoMessages/ErrorMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/InfoMessages/LoaderMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InfoMessages/LoaderMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/InfoMessages/SuccessMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InfoMessages/SuccessMessage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage/SideBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/ThemeChanger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ThemeChanger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/AdminPages/Features/AddTeamPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AdminPages/Features/AddTeamPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/LandingPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/LandingPage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/LandingPage/HomePage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/LoginPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/AddInternPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/AddInternPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/AddTaskPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/AddTaskPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/UpadateTaskStatusPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/UpadateTaskStatusPage.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2sogNlYbsjIwGhMdZtiZ0ggxl98" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/snap/webstorm/431/plugins/javascript-plugin/jsLanguageServicesImpl/external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Assests/ArchDiagram" />
+      <recent name="$PROJECT_DIR$/src" />
+      <recent name="$PROJECT_DIR$/src/Components/Pages/TeamLeaderPages" />
+      <recent name="$PROJECT_DIR$/src/Assests" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-822845ee3bb5-JavaScript-WS-243.23654.157" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e1126991-672d-4721-a957-dc98e67d7dd5" name="Changes" comment="" />
+      <created>1739127303607</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1739127303607</updated>
+      <workItem from="1739127304701" duration="1390000" />
+      <workItem from="1739155695949" duration="6227000" />
+      <workItem from="1739162223341" duration="13220000" />
+      <workItem from="1739198496535" duration="8437000" />
+      <workItem from="1739244008374" duration="28132000" />
+      <workItem from="1739273623102" duration="5340000" />
+      <workItem from="1739286470136" duration="16734000" />
+      <workItem from="1739325597697" duration="1992000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
