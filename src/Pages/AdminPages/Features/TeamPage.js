@@ -6,12 +6,14 @@ import AddTaskPage from "../../TeamLeaderPages/FeaturesPage/AddTaskPage";
 import SkeletonTeamPage from "../../SkeletonLoaderPage/SkeletonTeamPage";
 import {Link, useParams} from "react-router-dom";
 import DeleteTaskPage from "./DeleteTaskPage";
+import { useNavigate } from "react-router-dom";
 
 function TeamPage(props) {
     const [featureToBeOpened, setFeatureToBeOpened] = useState(null);
     const [teamInfo, setTeamInfo] = useState("");
     const [skeletonLoaderFlag, setSkeletonLoaderFlag] = useState(false);
     const { teamName } = useParams();
+    const navigate = useNavigate();
 
     function getInfo(){
         setSkeletonLoaderFlag(true)
@@ -26,8 +28,8 @@ function TeamPage(props) {
                 tasks : currentInfo.tasks,
             })
         }).catch((error) => {
-            if (error.response.status === 401) {
-                window.location = "/unauthozied"
+            if (error.response.status === 401 || err.response.status === 403) {
+                navigate("/unauthozied")
             }
         })
             .finally(()=>{

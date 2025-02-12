@@ -1,7 +1,7 @@
 import LogOutButton from "../../Components/LogOutButton";
 import {useEffect, useState} from "react";
 import api from "../../AxiosProvider"
-import {useParams} from "react-router-dom";
+import {useNavigate, useParams} from "react-router-dom";
 import UpadateTaskStatusPage from "../TeamLeaderPages/FeaturesPage/UpadateTaskStatusPage";
 import AxiosProvider from "../../AxiosProvider";
 import SkeletonLoaderInternPage from "../SkeletonLoaderPage/SkeletonLoaderInternPage";
@@ -11,6 +11,7 @@ function DashBoard(props) {
     const {teamName} = useParams();
     const [skeletonLoaderFlag, setSkeletonLoaderFlag] = useState(false);
     const [taskList, setTaskList] = useState([]);
+    const navigate = useNavigate();
 
     function getInfo(){
         setSkeletonLoaderFlag(true);
@@ -18,7 +19,12 @@ function DashBoard(props) {
             teamName
         }).then((response)=>{
             setTaskList(response.data.tasks);
-        }).finally(()=>{
+        }).catch((err) => {
+            if(err.response.status === 401 ||  err.response.status === 403){
+                navigate("/unauthozied");
+            }
+        }).
+        finally(()=>{
             setSkeletonLoaderFlag(false);
         })
     }

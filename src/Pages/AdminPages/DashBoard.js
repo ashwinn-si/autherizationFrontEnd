@@ -6,12 +6,14 @@ import SuccessMessage from "../../Components/InfoMessages/SuccessMessage";
 import ErrorMessage from "../../Components/InfoMessages/ErrorMessage";
 import LoaderMessage from "../../Components/InfoMessages/LoaderMessage";
 import SkeletonAdminPage from "../SkeletonLoaderPage/SkeletonLoaderAdminDashBoard"
+import { useNavigate } from "react-router-dom";
 
 function DashBoard(props){
     const [teams,setTeams] = useState([])
     const [openFlag, setOpenFlag] = useState(false)
     const [messageFlag, setMessageFlag] = useState(null)
     const [skeletonLoaderFlag, setSkeletonLoaderFlag] = useState(false)
+    const navigate = useNavigate();
 
     function getTeamInfo (){
         setSkeletonLoaderFlag(true)
@@ -29,8 +31,8 @@ function DashBoard(props){
             ))
             setTeams(currTeams);
         }).catch(err=>{
-            if(err.response.status === 401){
-                window.location = "/unauthozied"
+            if(err.response.status === 401 || err.response.status === 403){
+                navigate("/unauthozied");
             }
             setMessageFlag(2)
         }).finally(()=>{

@@ -16,7 +16,7 @@ function LoaderMessage(props){
     };
     return(
         <AnimatePresence>
-            <motion.div role="alert" className="alert alert-info fixed top-[10%] w-[30%]" variants={variant} initial="hidden" animate="visible" exit="exit">
+            <motion.div role="alert" className="alert alert-info fixed top-[10%] w-[30%] z-[999]" variants={variant} initial="hidden" animate="visible" exit="exit">
                 <svg
                     xmlns="http://www.w3.org/2000/svg"
                     className="h-6 w-6 shrink-0 stroke-current"

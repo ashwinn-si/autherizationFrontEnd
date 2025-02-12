@@ -4,7 +4,7 @@ import AddInternPage from "./FeaturesPage/AddInternPage";
 import DeleteInternPage from "./FeaturesPage/DeleteInternPage";
 import AddTaskPage from "./FeaturesPage/AddTaskPage";
 import SkeletonTeamPage from "../SkeletonLoaderPage/SkeletonTeamPage";
-import {Link, useParams} from "react-router-dom";
+import {Link, useNavigate, useParams} from "react-router-dom";
 import LogOutButton from "../../Components/LogOutButton";
 import UpadateTaskStatusPage from "./FeaturesPage/UpadateTaskStatusPage";
 
@@ -13,6 +13,7 @@ function TeamPage(props) {
     const [teamInfo, setTeamInfo] = useState("");
     const [skeletonLoaderFlag, setSkeletonLoaderFlag] = useState(false);
     const { teamName } = useParams();
+    const navigate = useNavigate();
 
     function getInfo(){
         setSkeletonLoaderFlag(true)
@@ -28,8 +29,8 @@ function TeamPage(props) {
             })
             console.log(currentInfo)
         }).catch((error) => {
-            if (error.response.status === 401) {
-                window.location = "/unauthozied"
+            if (error.response.status === 401 || err.response.status === 403 ) {
+                navigate("/unauthozied");
             }
         })
             .finally(()=>{
