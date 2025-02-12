@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e1126991-672d-4721-a957-dc98e67d7dd5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/LandingPage/NavItems.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LandingPage/ScrollIndicator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/LandingPage/Tooltip.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Pages/LandingPage/DocumentationPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/InfoMessages/ErrorMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InfoMessages/ErrorMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/InfoMessages/LoaderMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InfoMessages/LoaderMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/InfoMessages/SuccessMessage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/InfoMessages/SuccessMessage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage/NavBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/LandingPage/SideBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/LandingPage/SideBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/ThemeChanger.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/ThemeChanger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/AdminPages/Features/AddTeamPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/AdminPages/Features/AddTeamPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/LandingPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/LandingPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/LandingPage/HomePage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/LandingPage/HomePage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/LoginPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/LoginPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/AddInternPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/AddInternPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/AddTaskPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/AddTaskPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/UpadateTaskStatusPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Pages/TeamLeaderPages/FeaturesPage/UpadateTaskStatusPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +20,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -98,6 +79,7 @@
       <workItem from="1739273623102" duration="5340000" />
       <workItem from="1739286470136" duration="16734000" />
       <workItem from="1739325597697" duration="1992000" />
+      <workItem from="1739350005828" duration="171000" />
     </task>
     <servers />
   </component>
