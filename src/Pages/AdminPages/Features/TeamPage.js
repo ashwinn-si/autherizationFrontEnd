@@ -28,7 +28,7 @@ function TeamPage(props) {
                 tasks : currentInfo.tasks,
             })
         }).catch((error) => {
-            if (error.response.status === 401 || err.response.status === 403) {
+            if (error.response.status === 401 || error.response.status === 403) {
                 navigate("/unauthozied")
             }
         })
