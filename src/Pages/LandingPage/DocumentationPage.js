@@ -94,8 +94,8 @@ function DocumentationPage(){
                             Repository Links
                         </p>
                         <div className="flex w-full justify-evenly items-center gap-2 my-3">
-                            <button className="btn btn-outline btn-secondary text-sm md:text-base">FrontEnd</button>
-                            <button className="btn btn-outline btn-accent text-sm md:text-base">Backend</button>
+                            <button className="btn btn-outline btn-secondary text-sm md:text-base"><a href="https://github.com/ashwinn-si/autherizationFrontEnd" target="_blank">FrontEnd</a></button>
+                            <button className="btn btn-outline btn-accent text-sm md:text-base"><a href="https://github.com/ashwinn-si/autherizationBackEnd" target="_blank">BackEnd</a></button>
                         </div>
                     </motion.div>
                 </div>
