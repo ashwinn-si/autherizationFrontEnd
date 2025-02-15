@@ -14,7 +14,7 @@ function HomePage(){
 
             <div className="z-[11]">
                 <p
-                    className="text-3xl lg:text-[5rem] font-bold hover:tracking-[0.2rem] hover:scale-[1] lg:hover:tracking-[0.2em] transition-all duration-300 cursor-pointer"
+                    className="text-3xl lg:text-[5rem] font-bold hover:tracking-[0.2rem] hover:scale-[1] lg:hover:tracking-[0.2em] transition-all duration-300 cursor-pointer text-center"
                 >
                     Office Dashboard Management
                 </p>
