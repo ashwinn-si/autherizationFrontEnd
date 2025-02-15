@@ -2,7 +2,7 @@
 
 This is the Front End repository for the **Sum Tracking Website**. The platform gives info about Autherization and performs role based Autherization 🚀
 
-### [Link to Website](https://autherization-front-ksg8p0pea-ashwin-s-is-projects.vercel.app/)
+### [Link to Website](https://autherization-front-end-git-master-ashwin-s-is-projects.vercel.app/)
 
 
 ## Features
