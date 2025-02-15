@@ -5,13 +5,14 @@ import{motion} from "framer-motion";
 
 function DocumentationPage(){
     const authorizationPoints = [
-        "Access Control - Ensures only authorized users can access specific resources.",
-        "Data Protection - Prevents unauthorized access to sensitive information.",
-        "Role-Based Access - Limits permissions based on user roles (Admin, User, Guest).",
-        "Compliance & Security - Meets legal and industry security standards like GDPR, HIPAA.",
-        "Prevents Unauthorized Actions - Stops unauthorized users from modifying or deleting data.",
-        "Business Integrity - Protects company resources, intellectual property, and confidential information."
+        "Developed a web application with three distinct roles: Admin, Team Lead (TL), and Intern, enabling role-based access and functionality.",
+        "Implemented JWT authentication for secure authorization, ensuring controlled access to different features based on user roles.",
+        "Designed a scalable user management system to assign and modify roles dynamically.",
+        "Ensured data security by restricting unauthorized actions such as data modifications or deletions.",
+        "Enhanced compliance with industry security standards by enforcing strict access control measures.",
+        "Improved business integrity by safeguarding company resources and confidential information."
     ];
+    
 
     const projectSteps = [
         "Clone the front-end repository from GitHub.",
@@ -53,10 +54,7 @@ function DocumentationPage(){
                     <p className="text-xl md:text-2xl lg:text-3xl font-[550] text-primary mb-4">Documentation</p>
 
                     <motion.div className="w-full my-3 md:my-5">
-                        <p className="text-lg md:text-xl lg:text-2xl font-[700] text-center hover:tracking-widest transition-all duration-300 mb-4" variants={itemVariants} whileInView="visible" initial="hidden"
-                           exit="exit" >
-                            Need For Authorization
-                        </p>
+                        
                         <div className="flex flex-col items-start gap-2 md:gap-3">
                             {authorizationPoints.map((auth, index) => (
                                 <motion.div key={index} className="flex items-center gap-2 w-full" variants={itemVariants} whileInView="visible" initial="hidden"
