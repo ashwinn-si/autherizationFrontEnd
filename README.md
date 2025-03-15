@@ -1,6 +1,6 @@
-# Autherization - Front End
+# Office Dashboard Management - Front End
 
-This is the Front End repository for the **Sum Tracking Website**. The platform gives info about Autherization and performs role based Autherization 🚀
+This is the Front End repository for the *Office Dashboard Management**. The platform gives info about Autherization and performs role based Autherization 🚀
 
 ### [Link to Website](https://autherization-front-end-git-master-ashwin-s-is-projects.vercel.app/)
 
